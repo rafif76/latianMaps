@@ -71,6 +71,22 @@ class MainActivity : AppCompatActivity() , OnMapReadyCallback {
             Looper.myLooper()!!
         )
 
+
+
+        binding.bottomNav.setOnItemReselectedListener {
+            when( it.itemId )
+            {
+                R.id.cukur -> nearByPlace("cukur")
+                R.id.sekolah -> nearByPlace("sekolah")
+                R.id.rumahsakit -> nearByPlace("rumah sakit")
+            }
+
+        }
+
+    }
+
+    private fun nearByPlace(typePlace: String) {
+
     }
 
     private fun buildLocationRequest() {
