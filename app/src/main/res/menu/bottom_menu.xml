@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/cukur"
+        android:enabled="true"
+        android:title="BarberShop"
+        android:icon="@drawable/ic_baseline_store_24"
+        app:showAsAction="ifRoom"
+
+        />
+
+        <item
+        android:id="@+id/sekolah"
+        android:enabled="true"
+        android:title="sekolah"
+        android:icon="@drawable/ic_baseline_school_24"
+        app:showAsAction="ifRoom"
+
+        />
+
+    <item
+        android:id="@+id/rumahsakit"
+        android:enabled="true"
+        android:title="RS"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        app:showAsAction="ifRoom"
+
+        />
+
+
+
+</menu>

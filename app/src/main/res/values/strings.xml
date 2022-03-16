@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">mapsForPATest</string>
 
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+    <string name="google_maps_key" >AIzaSyAmrWx3HkQPEoM-wTpmU8iV56ZFF0wmduU</string>
+    <string name="browser_key" >AIzaSyCUbSCLtHeOlDNMiHU-B1UckvMz8PrZKq0</string>
 
 </resources>
